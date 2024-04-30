@@ -1,0 +1,31 @@
+firstday=input("enter the first day of the year")
+date=int(input("enter a date number from 2 to 365"))
+s=date%7
+if(firstday=="monday"):
+  s=s-1
+elif(firstday=="tuesday"):
+  s=s
+elif(firstday=="wednesday"):
+  s=s+1
+elif(firstday=="thursday"):
+  s=s+2
+elif(firstday=="friday"):
+  s=s+3
+elif(firstday=="saturday"):
+  s=s-3
+else:
+  s=s-2
+if(s%7==0):
+  print("monday")
+elif(s%7==1):
+  print("tuesday")
+elif(s%7==2):
+  print("wednesday")
+elif(s%7==3):
+  print("thurday")
+elif(s%7==4):
+  print("friday")
+elif(s%7==5):
+  print("saturday")
+else:
+  print("sunday")
