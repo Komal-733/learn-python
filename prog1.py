@@ -20,4 +20,5 @@ def fruits():
   print(dict)
   print(dict[2])
   print(dict[5])
+  print(dict.get(4,"3"))
 fruits()
