@@ -5,5 +5,5 @@ def gen(n):
     r*=10
     l=l*10+9
     n-=1
-  return random.randrange(r,l)
+  return random.uniform(r,l)
 print(gen(2))
