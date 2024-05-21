@@ -1,2 +1,2 @@
-import conversion.lengthconversion
-help(conversion.lengthconversion)
+from conversion.length import lengthconversion
+help(lengthconversion)
