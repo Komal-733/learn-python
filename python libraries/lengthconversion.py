@@ -22,7 +22,5 @@ def inchestofeet(inch):
   return feet
 
 #constants
-km=1.609344
-mile=1
-feet=1
-inch=12
+mile=1.609344
+feet=12
