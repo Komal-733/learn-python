@@ -1,2 +1,2 @@
-import massconversion
-help(massconversion)
+import conversion.massconversion
+help(conversion.massconversion)
