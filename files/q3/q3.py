@@ -1,6 +1,6 @@
 f1=open('files/q3/data.txt','r')
 f2=open('files/q3/updatedata.txt','w')
-d=f1.readlines()
+d=f1.read()
 for i in d:
   s=i.split(' ')
   p=s[0],'\t',s[1]
