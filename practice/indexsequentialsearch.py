@@ -1,4 +1,4 @@
-'''list=[3,6,8,17,20,24,30]
+list=[3,6,8,17,20,24,30]
 key=17
 index=3
 l=len(list)
@@ -17,6 +17,4 @@ while m>0:
       if i == key:
         c+=1
 if c!=0:
-  print("present")'''
-print('c')
-print('m,list[i-index]')
+  print("present")
