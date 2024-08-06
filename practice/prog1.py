@@ -1,4 +1,5 @@
 import math
+print(bool(9))
 def fruits():
   fruit=input("What is your favourite fruit?")
   a=int(input())

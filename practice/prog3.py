@@ -1,5 +1,5 @@
 
-thisdict={"a":1,"b":'hello',"c":[2,5.5]}
+thisdict={"a":1,"keys":'hello',"c":[2,5.5]}
 for i in thisdict:
   print(i,thisdict[i]) 
 alpha=65
@@ -24,5 +24,3 @@ print(chr(65))
 print(s[2:-10])
 print(len(s))
 sen="hello"
-l=sen.length()
-print(l)
