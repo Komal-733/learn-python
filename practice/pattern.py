@@ -35,3 +35,9 @@ A=[1,2,
 B='XYZ'
 Res=zip(A,B)
 print(Res)# list of tuples print(Res)
+a=20
+def display():
+  global a = 30
+  print('value of a is',a)
+display()
+print('the value of an outside function is',a)

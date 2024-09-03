@@ -10,7 +10,7 @@ for i in range(1,4):
   print("\r")
   alpha+=1
   c+=1
-  
+print(thisdict) 
 s=input("enter a sentence")
 slower=s.lower()
 count=0
